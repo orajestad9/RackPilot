@@ -1,0 +1,11 @@
+{
+  "Midi": {
+    "ConsoleOnly": false,
+    "OutputDeviceName": "Microsoft GS Wavetable Synth",
+    "Channel": 1,
+    "Clock": { "SendClock": false, "Bpm": 120 },
+    "Note": { "Scale": "Minor", "Root": "C4", "StepsPerBar": 16, "GateMs": 120, "Velocity": 96, "Pattern": "up" },
+    "Cc":   { "Enabled": true, "Number": 1, "Min": 20, "Max": 100, "IntervalMs": 30 },
+    "Debug": { "LogToConsole": true }
+  }
+}

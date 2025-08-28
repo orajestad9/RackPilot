@@ -1,0 +1,38 @@
+# --- .NET / C# ---
+bin/
+obj/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+*.tsbuildinfo
+
+# VS / Rider / VS Code
+.vs/
+.idea/
+.vscode/
+
+# Build outputs
+*.dll
+*.exe
+*.pdb
+*.cache
+*.log
+TestResults/
+
+# OS junk
+.DS_Store
+Thumbs.db
+
+# NuGet
+*.nupkg
+packages/
+.nuget/
+
+# Environment files
+appsettings.Development.json
+appsettings.*.local.json
+
+# We'll keep a sample and ignore the real one:
+appsettings.json
+!appsettings.json.example
